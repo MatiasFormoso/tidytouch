@@ -20,16 +20,16 @@ export default function CTASection({ t, locale }: CTASectionProps) {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">
-            ¿Listo para transformar tus espacios?
+            {t.hero.title}
           </h2>
           <p className="text-xl text-neutral-300 mb-10 max-w-2xl mx-auto">
-            Contacta con nosotros y descubre cómo podemos ayudarte a crear ambientes ordenados y armoniosos.
+            {t.hero.subtitle}
           </p>
           <Link
             href={`/${locale}/contacto`}
             className="inline-block px-8 py-4 bg-white text-neutral-900 rounded-lg font-medium hover:bg-neutral-100 transition-colors"
           >
-            Contactar ahora
+            {t.hero.ctaPrimary}
           </Link>
         </motion.div>
       </div>
