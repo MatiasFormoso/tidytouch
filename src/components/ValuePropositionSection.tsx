@@ -9,7 +9,7 @@ export default function ValuePropositionSection() {
       {/* Background Image - Toallas beige sobre superficie blanca (slide 2) */}
       <div className="relative w-full h-[450px] sm:h-[550px] md:h-[650px] lg:h-[700px] bg-[#F8F6F2] overflow-hidden">
         <ImageWithPlaceholder
-          src="/images/toallas-beige.png"
+          src="/images/toallas-beige.jpg"
           alt="Toallas beige sobre superficie blanca"
           fill
           className="object-cover object-center"
