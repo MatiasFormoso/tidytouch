@@ -45,3 +45,17 @@ yarn-error.log*
 # OS
 Thumbs.db
 
+# PDF Extraction - NO COMMIT
+*.pdf
+extract_*.py
+*_EXTRACTION*.md
+*_EXTRACTED*.md
+ANALISIS_*.md
+BRANDING_*.md
+INFORMACION_*.md
+PROPUESTA_*.md
+pdf_images/
+*.png
+*.jpg
+*.jpeg
+extracted_data/
