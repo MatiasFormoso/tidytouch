@@ -1,4 +1,7 @@
 import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
+import ServicesSection from '@/components/ServicesSection';
+import CTASection from '@/components/CTASection';
 import { getDictionary } from '@/i18n/config';
 import type { Locale } from '@/i18n/config';
 
@@ -13,6 +16,9 @@ export default async function HomePage({
   return (
     <>
       <HeroSection t={t} locale={locale as Locale} />
+      <AboutSection t={t} locale={locale as Locale} />
+      <ServicesSection t={t} locale={locale as Locale} />
+      <CTASection t={t} locale={locale as Locale} />
     </>
   );
 }

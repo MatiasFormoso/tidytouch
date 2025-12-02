@@ -13,12 +13,13 @@ export default function HeroSection({ t, locale }: HeroSectionProps) {
   return (
     <section 
       id="hero" 
-      className="relative h-screen flex items-center justify-center bg-gradient-to-b from-neutral-50 to-neutral-100 overflow-hidden"
+      className="relative h-screen flex items-center justify-center bg-gradient-to-br from-neutral-50 via-neutral-50 to-neutral-100 overflow-hidden"
     >
       {/* Background decorative elements */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-72 h-72 bg-neutral-400 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-neutral-400 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 opacity-[0.03]">
+        <div className="absolute top-20 left-20 w-96 h-96 bg-neutral-500 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-20 w-[500px] h-[500px] bg-neutral-400 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neutral-300 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -63,13 +64,13 @@ export default function HeroSection({ t, locale }: HeroSectionProps) {
         >
           <Link
             href={`/${locale}/contacto`}
-            className="px-8 py-4 bg-neutral-900 text-white rounded-lg font-medium hover:bg-neutral-800 transition-colors shadow-lg hover:shadow-xl"
+            className="group px-8 py-4 bg-neutral-900 text-white rounded-lg font-medium hover:bg-neutral-800 transition-all shadow-lg hover:shadow-xl hover:scale-105"
           >
             {t.hero.ctaPrimary}
           </Link>
           <Link
             href={`/${locale}/servicios`}
-            className="px-8 py-4 bg-white text-neutral-900 border-2 border-neutral-200 rounded-lg font-medium hover:border-neutral-300 transition-colors"
+            className="px-8 py-4 bg-white text-neutral-900 border-2 border-neutral-300 rounded-lg font-medium hover:border-neutral-400 hover:bg-neutral-50 transition-all"
           >
             {t.hero.ctaSecondary}
           </Link>

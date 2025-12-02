@@ -1,0 +1,740 @@
+{
+  "colors": {},
+  "dominant_colors": [
+    {
+      "hex": "#FAFAFA",
+      "frequency": 11,
+      "percentage": 8.87
+    },
+    {
+      "hex": "#DCDCDC",
+      "frequency": 9,
+      "percentage": 7.26
+    },
+    {
+      "hex": "#E6E6E6",
+      "frequency": 9,
+      "percentage": 7.26
+    },
+    {
+      "hex": "#D2D2D2",
+      "frequency": 8,
+      "percentage": 6.45
+    },
+    {
+      "hex": "#D2D2C8",
+      "frequency": 6,
+      "percentage": 4.84
+    },
+    {
+      "hex": "#DCDCD2",
+      "frequency": 6,
+      "percentage": 4.84
+    },
+    {
+      "hex": "#F0F0F0",
+      "frequency": 6,
+      "percentage": 4.84
+    },
+    {
+      "hex": "#DCD2D2",
+      "frequency": 5,
+      "percentage": 4.03
+    },
+    {
+      "hex": "#D2C8C8",
+      "frequency": 5,
+      "percentage": 4.03
+    },
+    {
+      "hex": "#E6DCDC",
+      "frequency": 5,
+      "percentage": 4.03
+    },
+    {
+      "hex": "#E6E6DC",
+      "frequency": 4,
+      "percentage": 3.23
+    },
+    {
+      "hex": "#8CA0AA",
+      "frequency": 3,
+      "percentage": 2.42
+    },
+    {
+      "hex": "#D2DCDC",
+      "frequency": 3,
+      "percentage": 2.42
+    },
+    {
+      "hex": "#B4AAA0",
+      "frequency": 2,
+      "percentage": 1.61
+    },
+    {
+      "hex": "#AAAAA0",
+      "frequency": 2,
+      "percentage": 1.61
+    },
+    {
+      "hex": "#AAAAAA",
+      "frequency": 2,
+      "percentage": 1.61
+    },
+    {
+      "hex": "#A0A096",
+      "frequency": 2,
+      "percentage": 1.61
+    },
+    {
+      "hex": "#DCD2C8",
+      "frequency": 2,
+      "percentage": 1.61
+    },
+    {
+      "hex": "#96AAB4",
+      "frequency": 2,
+      "percentage": 1.61
+    },
+    {
+      "hex": "#DCDCE6",
+      "frequency": 2,
+      "percentage": 1.61
+    }
+  ],
+  "pages_analysis": {
+    "01": {
+      "colors": [
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 97397
+        },
+        {
+          "hex": "#D2D2D2",
+          "rgb": "rgb(210, 210, 210)",
+          "frequency": 7221
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 6257
+        },
+        {
+          "hex": "#DCD2D2",
+          "rgb": "rgb(220, 210, 210)",
+          "frequency": 6082
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 5024
+        },
+        {
+          "hex": "#D2C8C8",
+          "rgb": "rgb(210, 200, 200)",
+          "frequency": 3546
+        },
+        {
+          "hex": "#E6DCDC",
+          "rgb": "rgb(230, 220, 220)",
+          "frequency": 3072
+        },
+        {
+          "hex": "#D2D2C8",
+          "rgb": "rgb(210, 210, 200)",
+          "frequency": 2507
+        },
+        {
+          "hex": "#B4AAA0",
+          "rgb": "rgb(180, 170, 160)",
+          "frequency": 2145
+        },
+        {
+          "hex": "#DCDCD2",
+          "rgb": "rgb(220, 220, 210)",
+          "frequency": 1372
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "02": {
+      "colors": [
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 89628
+        },
+        {
+          "hex": "#AAAAA0",
+          "rgb": "rgb(170, 170, 160)",
+          "frequency": 3718
+        },
+        {
+          "hex": "#A0A0A0",
+          "rgb": "rgb(160, 160, 160)",
+          "frequency": 2417
+        },
+        {
+          "hex": "#AAAAAA",
+          "rgb": "rgb(170, 170, 170)",
+          "frequency": 1898
+        },
+        {
+          "hex": "#AAA0A0",
+          "rgb": "rgb(170, 160, 160)",
+          "frequency": 1674
+        },
+        {
+          "hex": "#A0AAAA",
+          "rgb": "rgb(160, 170, 170)",
+          "frequency": 1374
+        },
+        {
+          "hex": "#A0A096",
+          "rgb": "rgb(160, 160, 150)",
+          "frequency": 1253
+        },
+        {
+          "hex": "#AAA096",
+          "rgb": "rgb(170, 160, 150)",
+          "frequency": 967
+        },
+        {
+          "hex": "#F0F0F0",
+          "rgb": "rgb(240, 240, 240)",
+          "frequency": 965
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "03": {
+      "colors": [
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 70894
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 13193
+        },
+        {
+          "hex": "#D2D2D2",
+          "rgb": "rgb(210, 210, 210)",
+          "frequency": 6777
+        },
+        {
+          "hex": "#DCDCD2",
+          "rgb": "rgb(220, 220, 210)",
+          "frequency": 4045
+        },
+        {
+          "hex": "#D2D2C8",
+          "rgb": "rgb(210, 210, 200)",
+          "frequency": 3788
+        },
+        {
+          "hex": "#E6E6DC",
+          "rgb": "rgb(230, 230, 220)",
+          "frequency": 3129
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 2476
+        },
+        {
+          "hex": "#784632",
+          "rgb": "rgb(120, 70, 50)",
+          "frequency": 1246
+        },
+        {
+          "hex": "#503C32",
+          "rgb": "rgb(80, 60, 50)",
+          "frequency": 1237
+        },
+        {
+          "hex": "#321E14",
+          "rgb": "rgb(50, 30, 20)",
+          "frequency": 1195
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "04": {
+      "colors": [
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 101123
+        },
+        {
+          "hex": "#DCD2D2",
+          "rgb": "rgb(220, 210, 210)",
+          "frequency": 7477
+        },
+        {
+          "hex": "#DCDCD2",
+          "rgb": "rgb(220, 220, 210)",
+          "frequency": 4108
+        },
+        {
+          "hex": "#D2D2C8",
+          "rgb": "rgb(210, 210, 200)",
+          "frequency": 2529
+        },
+        {
+          "hex": "#DCD2C8",
+          "rgb": "rgb(220, 210, 200)",
+          "frequency": 2258
+        },
+        {
+          "hex": "#D2C8C8",
+          "rgb": "rgb(210, 200, 200)",
+          "frequency": 1760
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 1304
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 1254
+        },
+        {
+          "hex": "#B4AAA0",
+          "rgb": "rgb(180, 170, 160)",
+          "frequency": 1187
+        },
+        {
+          "hex": "#E6DCDC",
+          "rgb": "rgb(230, 220, 220)",
+          "frequency": 952
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "05": {
+      "colors": [
+        {
+          "hex": "#F0F0F0",
+          "rgb": "rgb(240, 240, 240)",
+          "frequency": 75845
+        },
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 3266
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 2928
+        },
+        {
+          "hex": "#96AAB4",
+          "rgb": "rgb(150, 170, 180)",
+          "frequency": 1680
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 1584
+        },
+        {
+          "hex": "#D2D2D2",
+          "rgb": "rgb(210, 210, 210)",
+          "frequency": 1382
+        },
+        {
+          "hex": "#DCDCE6",
+          "rgb": "rgb(220, 220, 230)",
+          "frequency": 1225
+        },
+        {
+          "hex": "#8CA0AA",
+          "rgb": "rgb(140, 160, 170)",
+          "frequency": 1148
+        },
+        {
+          "hex": "#DCE6F0",
+          "rgb": "rgb(220, 230, 240)",
+          "frequency": 1042
+        },
+        {
+          "hex": "#E6E6F0",
+          "rgb": "rgb(230, 230, 240)",
+          "frequency": 976
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "06": {
+      "colors": [
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 109232
+        },
+        {
+          "hex": "#DCD2D2",
+          "rgb": "rgb(220, 210, 210)",
+          "frequency": 2660
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 2014
+        },
+        {
+          "hex": "#E6E6DC",
+          "rgb": "rgb(230, 230, 220)",
+          "frequency": 1620
+        },
+        {
+          "hex": "#F0F0F0",
+          "rgb": "rgb(240, 240, 240)",
+          "frequency": 1590
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 1356
+        },
+        {
+          "hex": "#DCDCD2",
+          "rgb": "rgb(220, 220, 210)",
+          "frequency": 1337
+        },
+        {
+          "hex": "#E6DCDC",
+          "rgb": "rgb(230, 220, 220)",
+          "frequency": 760
+        },
+        {
+          "hex": "#FAFAF0",
+          "rgb": "rgb(250, 250, 240)",
+          "frequency": 751
+        },
+        {
+          "hex": "#D2D2C8",
+          "rgb": "rgb(210, 210, 200)",
+          "frequency": 688
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "07": {
+      "colors": [
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 85342
+        },
+        {
+          "hex": "#E6F0F0",
+          "rgb": "rgb(230, 240, 240)",
+          "frequency": 8430
+        },
+        {
+          "hex": "#E6E6F0",
+          "rgb": "rgb(230, 230, 240)",
+          "frequency": 7783
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 5384
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 3400
+        },
+        {
+          "hex": "#DCDCE6",
+          "rgb": "rgb(220, 220, 230)",
+          "frequency": 1706
+        },
+        {
+          "hex": "#D2C8C8",
+          "rgb": "rgb(210, 200, 200)",
+          "frequency": 1515
+        },
+        {
+          "hex": "#DCE6E6",
+          "rgb": "rgb(220, 230, 230)",
+          "frequency": 1497
+        },
+        {
+          "hex": "#F0F0F0",
+          "rgb": "rgb(240, 240, 240)",
+          "frequency": 1474
+        },
+        {
+          "hex": "#D2DCDC",
+          "rgb": "rgb(210, 220, 220)",
+          "frequency": 1110
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "08": {
+      "colors": [
+        {
+          "hex": "#F0F0F0",
+          "rgb": "rgb(240, 240, 240)",
+          "frequency": 58831
+        },
+        {
+          "hex": "#D2D2D2",
+          "rgb": "rgb(210, 210, 210)",
+          "frequency": 4122
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 1648
+        },
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 1564
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 1497
+        },
+        {
+          "hex": "#AAAAAA",
+          "rgb": "rgb(170, 170, 170)",
+          "frequency": 1060
+        },
+        {
+          "hex": "#C8D2D2",
+          "rgb": "rgb(200, 210, 210)",
+          "frequency": 1035
+        },
+        {
+          "hex": "#AAAAA0",
+          "rgb": "rgb(170, 170, 160)",
+          "frequency": 996
+        },
+        {
+          "hex": "#A0A096",
+          "rgb": "rgb(160, 160, 150)",
+          "frequency": 875
+        },
+        {
+          "hex": "#8CA0AA",
+          "rgb": "rgb(140, 160, 170)",
+          "frequency": 806
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "09": {
+      "colors": [
+        {
+          "hex": "#DCDCD2",
+          "rgb": "rgb(220, 220, 210)",
+          "frequency": 99252
+        },
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 45789
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 2961
+        },
+        {
+          "hex": "#E6E6DC",
+          "rgb": "rgb(230, 230, 220)",
+          "frequency": 1741
+        },
+        {
+          "hex": "#D2DCD2",
+          "rgb": "rgb(210, 220, 210)",
+          "frequency": 810
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 708
+        },
+        {
+          "hex": "#D2D2D2",
+          "rgb": "rgb(210, 210, 210)",
+          "frequency": 586
+        },
+        {
+          "hex": "#F0E6E6",
+          "rgb": "rgb(240, 230, 230)",
+          "frequency": 554
+        },
+        {
+          "hex": "#325A6E",
+          "rgb": "rgb(50, 90, 110)",
+          "frequency": 290
+        },
+        {
+          "hex": "#F0F0E6",
+          "rgb": "rgb(240, 240, 230)",
+          "frequency": 279
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "10": {
+      "colors": [
+        {
+          "hex": "#F0F0F0",
+          "rgb": "rgb(240, 240, 240)",
+          "frequency": 57562
+        },
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 56847
+        },
+        {
+          "hex": "#DCDCDC",
+          "rgb": "rgb(220, 220, 220)",
+          "frequency": 3525
+        },
+        {
+          "hex": "#E6E6E6",
+          "rgb": "rgb(230, 230, 230)",
+          "frequency": 2814
+        },
+        {
+          "hex": "#FAFAF0",
+          "rgb": "rgb(250, 250, 240)",
+          "frequency": 1271
+        },
+        {
+          "hex": "#D2D2D2",
+          "rgb": "rgb(210, 210, 210)",
+          "frequency": 1201
+        },
+        {
+          "hex": "#DCD2D2",
+          "rgb": "rgb(220, 210, 210)",
+          "frequency": 1049
+        },
+        {
+          "hex": "#DCDCD2",
+          "rgb": "rgb(220, 220, 210)",
+          "frequency": 998
+        },
+        {
+          "hex": "#E6DCDC",
+          "rgb": "rgb(230, 220, 220)",
+          "frequency": 732
+        },
+        {
+          "hex": "#E6E6DC",
+          "rgb": "rgb(230, 230, 220)",
+          "frequency": 668
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    },
+    "11": {
+      "colors": [
+        {
+          "hex": "#FAFAFA",
+          "rgb": "rgb(250, 250, 250)",
+          "frequency": 66356
+        },
+        {
+          "hex": "#DCD2BE",
+          "rgb": "rgb(220, 210, 190)",
+          "frequency": 25248
+        },
+        {
+          "hex": "#E6DCDC",
+          "rgb": "rgb(230, 220, 220)",
+          "frequency": 3908
+        },
+        {
+          "hex": "#D2C8C8",
+          "rgb": "rgb(210, 200, 200)",
+          "frequency": 3655
+        },
+        {
+          "hex": "#DCD2D2",
+          "rgb": "rgb(220, 210, 210)",
+          "frequency": 3202
+        },
+        {
+          "hex": "#DCC8BE",
+          "rgb": "rgb(220, 200, 190)",
+          "frequency": 3002
+        },
+        {
+          "hex": "#F0DCC8",
+          "rgb": "rgb(240, 220, 200)",
+          "frequency": 2223
+        },
+        {
+          "hex": "#F0DCD2",
+          "rgb": "rgb(240, 220, 210)",
+          "frequency": 2199
+        },
+        {
+          "hex": "#F0E6DC",
+          "rgb": "rgb(240, 230, 220)",
+          "frequency": 1378
+        },
+        {
+          "hex": "#F0E6D2",
+          "rgb": "rgb(240, 230, 210)",
+          "frequency": 1309
+        }
+      ],
+      "image_size": [
+        2880,
+        1620
+      ]
+    }
+  }
+}
