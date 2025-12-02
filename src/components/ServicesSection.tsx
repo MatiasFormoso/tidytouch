@@ -10,23 +10,12 @@ type ServicesSectionProps = {
   locale: Locale;
 };
 
-const services = [
-  {
-    title: "Organización de Espacios",
-    description: "Transformamos tus espacios en lugares funcionales y armoniosos.",
-    icon: "📦"
-  },
-  {
-    title: "Limpieza Profesional",
-    description: "Servicios de limpieza integral para tu hogar o negocio.",
-    icon: "✨"
-  },
-  {
-    title: "Consultoría",
-    description: "Asesoramiento personalizado para optimizar tus espacios.",
-    icon: "💡"
-  },
-];
+// Servicios se cargarán desde los datos del PDF
+const services: Array<{
+  title: string;
+  description: string;
+  icon: string;
+}> = [];
 
 export default function ServicesSection({ t, locale }: ServicesSectionProps) {
   return (
@@ -47,8 +36,9 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {services.map((service, index) => (
+        {services.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {services.map((service, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 30 }}
@@ -72,10 +62,16 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
                 <ArrowRight className="w-4 h-4 ml-1" />
               </Link>
             </motion.div>
-          ))}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-12">
+            <p className="text-neutral-600">Servicios próximamente...</p>
+          </div>
+        )}
 
-        <motion.div
+        {services.length > 0 && (
+          <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}

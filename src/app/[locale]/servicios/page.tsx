@@ -12,44 +12,13 @@ export default async function ServicesPage({
   const { locale } = await params;
   const t = await getDictionary(locale as Locale);
 
-  const services = [
-    {
-      title: "Organización Residencial",
-      description: "Transformamos tu hogar en un espacio funcional y armonioso. Organizamos cada rincón para maximizar el orden y la eficiencia.",
-      icon: "🏠",
-      features: ["Análisis de espacios", "Sistemas de almacenamiento", "Organización por categorías"]
-    },
-    {
-      title: "Limpieza Profesional",
-      description: "Servicios de limpieza integral para mantener tus espacios impecables. Usamos productos de alta calidad y técnicas profesionales.",
-      icon: "✨",
-      features: ["Limpieza profunda", "Productos ecológicos", "Mantenimiento regular"]
-    },
-    {
-      title: "Organización Comercial",
-      description: "Optimizamos espacios de trabajo para mejorar la productividad y el flujo de trabajo en tu negocio.",
-      icon: "🏢",
-      features: ["Análisis de flujo", "Optimización de espacios", "Sistemas eficientes"]
-    },
-    {
-      title: "Consultoría Personalizada",
-      description: "Asesoramiento profesional para ayudarte a mantener el orden y crear sistemas que funcionen para ti.",
-      icon: "💡",
-      features: ["Evaluación personalizada", "Plan de acción", "Seguimiento"]
-    },
-    {
-      title: "Decluttering",
-      description: "Te ayudamos a deshacerte de lo innecesario y conservar solo lo que realmente necesitas y valoras.",
-      icon: "📦",
-      features: ["Evaluación de objetos", "Sistema de decisiones", "Donación/Reciclaje"]
-    },
-    {
-      title: "Organización Especializada",
-      description: "Servicios especializados para espacios como guardarropas, cocinas, oficinas en casa y más.",
-      icon: "🎯",
-      features: ["Enfoque especializado", "Soluciones custom", "Máxima funcionalidad"]
-    }
-  ];
+  // TODO: Cargar servicios reales del PDF
+  const services: Array<{
+    title: string;
+    description: string;
+    icon: string;
+    features: string[];
+  }> = [];
 
   return (
     <div className="pt-24 pb-24 min-h-screen bg-neutral-50">
@@ -63,8 +32,9 @@ export default async function ServicesPage({
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {services.map((service, index) => (
+        {services.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {services.map((service, index) => (
             <motion.div
               key={service.title}
               initial={{ opacity: 0, y: 30 }}
@@ -96,8 +66,14 @@ export default async function ServicesPage({
                 <ArrowRight className="w-4 h-4 ml-1" />
               </Link>
             </motion.div>
-          ))}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-16">
+            <p className="text-lg text-neutral-600">Información de servicios próximamente...</p>
+            <p className="text-sm text-neutral-500 mt-2">Estamos preparando la información detallada de nuestros servicios.</p>
+          </div>
+        )}
       </div>
     </div>
   );

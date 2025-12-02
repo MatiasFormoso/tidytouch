@@ -10,20 +10,11 @@ export default async function AboutPage({
   const { locale } = await params;
   const t = await getDictionary(locale as Locale);
 
-  const values = [
-    {
-      title: "Profesionalismo",
-      description: "Cada proyecto se aborda con el máximo nivel de profesionalismo y atención al detalle."
-    },
-    {
-      title: "Calidad",
-      description: "Nos comprometemos a entregar resultados de la más alta calidad en cada servicio."
-    },
-    {
-      title: "Compromiso",
-      description: "Tu satisfacción es nuestra prioridad. Trabajamos hasta superar tus expectativas."
-    }
-  ];
+  // TODO: Cargar valores reales del PDF
+  const values: Array<{
+    title: string;
+    description: string;
+  }> = [];
 
   return (
     <div className="pt-24 pb-24 min-h-screen bg-white">
@@ -43,25 +34,6 @@ export default async function AboutPage({
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-          {values.map((value, index) => (
-            <motion.div
-              key={value.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="p-8 bg-neutral-50 rounded-2xl border border-neutral-200"
-            >
-              <h3 className="text-xl font-semibold text-neutral-900 mb-3">
-                {value.title}
-              </h3>
-              <p className="text-neutral-600 leading-relaxed">
-                {value.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
       </div>
     </div>
   );
