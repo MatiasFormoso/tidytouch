@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-
 type ImageWithPlaceholderProps = {
   src: string;
   alt: string;
@@ -25,25 +23,30 @@ export default function ImageWithPlaceholder({
 }: ImageWithPlaceholderProps) {
   if (fill) {
     return (
-      <Image
+      <img
         src={src}
         alt={alt}
-        fill
         className={className}
-        sizes={sizes}
-        priority={priority}
+        style={{
+          position: 'absolute',
+          inset: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+        }}
+        loading={priority ? 'eager' : 'lazy'}
       />
     );
   }
 
   return (
-    <Image
+    <img
       src={src}
       alt={alt}
       width={width}
       height={height}
       className={className}
-      priority={priority}
+      loading={priority ? 'eager' : 'lazy'}
     />
   );
 }
