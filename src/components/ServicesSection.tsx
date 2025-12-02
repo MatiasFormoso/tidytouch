@@ -72,20 +72,21 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
 
         {services.length > 0 && (
           <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="text-center"
-        >
-          <Link
-            href={`/${locale}/servicios`}
-            className="inline-flex items-center px-8 py-4 bg-neutral-900 text-white rounded-lg font-medium hover:bg-neutral-800 transition-colors"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="text-center"
           >
-            Ver todos los servicios
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Link>
-        </motion.div>
+            <Link
+              href={`/${locale}/servicios`}
+              className="inline-flex items-center px-8 py-4 bg-neutral-900 text-white rounded-lg font-medium hover:bg-neutral-800 transition-colors"
+            >
+              Ver todos los servicios
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Link>
+          </motion.div>
+        )}
       </div>
     </section>
   );
