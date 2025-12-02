@@ -56,27 +56,11 @@ export default function Footer({ t, locale }: FooterProps) {
               {t.footer.contact}
             </h4>
             <ul className="space-y-3">
-              <li>
-                <a href="mailto:info@tidytouch.com" className="flex items-center gap-2 text-neutral-400 hover:text-white text-sm transition-colors">
-                  <Mail className="w-4 h-4" />
-                  info@tidytouch.com
-                </a>
-              </li>
-              <li>
-                <a href="tel:+1234567890" className="flex items-center gap-2 text-neutral-400 hover:text-white text-sm transition-colors">
-                  <Phone className="w-4 h-4" />
-                  +1 234 567 890
-                </a>
+              {/* TODO: Agregar información de contacto real del PDF */}
+              <li className="text-neutral-400 text-sm">
+                Información de contacto próximamente
               </li>
             </ul>
-            <div className="flex gap-4 mt-6">
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-            </div>
           </div>
         </div>
 

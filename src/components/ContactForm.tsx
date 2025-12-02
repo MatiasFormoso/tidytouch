@@ -21,37 +21,9 @@ export default function ContactForm({ t }: ContactFormProps) {
         >
           <Mail className="w-6 h-6 text-neutral-900 mb-4" />
           <h3 className="font-semibold text-neutral-900 mb-2">Email</h3>
-          <a href="mailto:info@tidytouch.com" className="text-neutral-600 hover:text-neutral-900 transition-colors">
-            info@tidytouch.com
-          </a>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.1 }}
-          className="p-6 bg-neutral-50 rounded-xl border border-neutral-200"
-        >
-          <Phone className="w-6 h-6 text-neutral-900 mb-4" />
-          <h3 className="font-semibold text-neutral-900 mb-2">Telefono</h3>
-          <a href="tel:+1234567890" className="text-neutral-600 hover:text-neutral-900 transition-colors">
-            +1 234 567 890
-          </a>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
-          className="p-6 bg-neutral-50 rounded-xl border border-neutral-200"
-        >
-          <Clock className="w-6 h-6 text-neutral-900 mb-4" />
-          <h3 className="font-semibold text-neutral-900 mb-2">Horarios</h3>
           <p className="text-neutral-600 text-sm">
-            Lunes - Viernes: 9:00 - 18:00<br />
-            Sabados: 10:00 - 14:00
+            {/* TODO: Agregar email real del PDF */}
+            Información próximamente
           </p>
         </motion.div>
       </div>
