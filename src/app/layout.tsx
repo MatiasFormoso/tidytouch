@@ -1,5 +1,12 @@
 import type { Metadata } from 'next';
+import { Inter } from "next/font/google";
 import './globals.css';
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: 'TidyTouch - Organizacion Profesional',
@@ -40,6 +47,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <html lang="es" className={inter.variable}>
+      <body className="font-sans antialiased bg-neutral-50 text-neutral-900 overflow-x-hidden">
+        {children}
+      </body>
+    </html>
+  );
 }
 
