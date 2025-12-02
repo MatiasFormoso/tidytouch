@@ -39,7 +39,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl"
+              className="relative h-[500px] lg:h-[600px] rounded-lg overflow-hidden"
             >
               <ImageWithPlaceholder
                 src="/images/collage-hogar.jpg"
@@ -121,7 +121,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <div className="relative h-[400px] mb-6 rounded-2xl overflow-hidden shadow-xl">
+              <div className="relative h-[400px] mb-6 rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
                   src="/images/archivadores-blancos.jpg"
                   alt="Archivadores blancos para organización de oficina"
@@ -151,7 +151,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="relative h-[400px] mb-6 rounded-2xl overflow-hidden shadow-xl">
+              <div className="relative h-[400px] mb-6 rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
                   src="/images/manos-laptop.jpg"
                   alt="Archivos digitales"

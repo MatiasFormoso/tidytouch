@@ -27,7 +27,7 @@ export default function HeroSection({ t, locale }: HeroSectionProps) {
           priority={true}
         />
         {/* Overlay para mejorar legibilidad del texto */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/30"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
       {/* Content */}

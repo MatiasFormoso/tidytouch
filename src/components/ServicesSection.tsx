@@ -13,7 +13,7 @@ type ServicesSectionProps = {
 
 export default function ServicesSection({ t, locale }: ServicesSectionProps) {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -31,7 +31,7 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
         </motion.div>
 
         {/* Preview Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           {/* Organización de Hogar */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -40,12 +40,12 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
             transition={{ duration: 0.8 }}
             className="group"
           >
-            <div className="relative h-[300px] mb-6 rounded-2xl overflow-hidden shadow-md group-hover:shadow-xl transition-shadow duration-500">
+            <div className="relative h-[300px] mb-6 rounded-lg overflow-hidden">
               <ImageWithPlaceholder
                 src="/images/collage-hogar.jpg"
                 alt="Collage de organización de hogar"
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
@@ -80,21 +80,21 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
             className="group"
           >
             <div className="grid grid-cols-2 gap-4 mb-6">
-              <div className="relative h-[140px] rounded-2xl overflow-hidden shadow-md group-hover:shadow-lg transition-shadow duration-500">
+              <div className="relative h-[140px] rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
                   src="/images/archivadores-blancos.jpg"
                   alt="Archivadores blancos"
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="object-cover"
                   sizes="(max-width: 768px) 50vw, 25vw"
                 />
               </div>
-              <div className="relative h-[140px] rounded-2xl overflow-hidden shadow-md group-hover:shadow-lg transition-shadow duration-500">
+              <div className="relative h-[140px] rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
                   src="/images/manos-laptop.jpg"
                   alt="Manos en laptop"
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="object-cover"
                   sizes="(max-width: 768px) 50vw, 25vw"
                 />
               </div>
