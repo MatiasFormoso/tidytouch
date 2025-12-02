@@ -11,7 +11,7 @@ type AboutSectionProps = {
 
 export default function AboutSection({ t, locale }: AboutSectionProps) {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -30,7 +30,7 @@ export default function AboutSection({ t, locale }: AboutSectionProps) {
         </motion.div>
 
         {/* Sección 1: La Misión */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -56,32 +56,32 @@ export default function AboutSection({ t, locale }: AboutSectionProps) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative h-[400px] lg:h-[500px] order-1 lg:order-2"
+            className="relative h-[400px] lg:h-[500px] order-1 lg:order-2 rounded-2xl overflow-hidden shadow-xl"
           >
             <ImageWithPlaceholder
               src="/images/cajas-lavanda.jpg"
               alt="Foto cenital de cajas blancas y rama de lavanda"
               fill
-              className="rounded-lg object-cover"
+              className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </motion.div>
         </div>
 
         {/* Sección 2: La Filosofía */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative h-[400px] lg:h-[500px]"
+            className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl"
           >
             <ImageWithPlaceholder
               src="/images/perchero-industrial.jpg"
               alt="Perchero industrial negro con ropa colgada"
               fill
-              className="rounded-lg object-cover"
+              className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </motion.div>
@@ -107,7 +107,7 @@ export default function AboutSection({ t, locale }: AboutSectionProps) {
         </div>
 
         {/* Sección 3: Bio de Luisa */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -144,13 +144,13 @@ export default function AboutSection({ t, locale }: AboutSectionProps) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative h-[500px] lg:h-[600px]"
+            className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl"
           >
             <ImageWithPlaceholder
               src="/images/luisa-roca.jpg"
               alt="Luisa sentada en las rocas"
               fill
-              className="rounded-lg object-cover"
+              className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </motion.div>

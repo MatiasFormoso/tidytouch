@@ -13,7 +13,7 @@ type ServicesPageContentProps = {
 
 export default function ServicesPageContent({ t, locale }: ServicesPageContentProps) {
   return (
-    <div className="pt-24 pb-24 min-h-screen bg-white">
+    <div className="pt-32 pb-32 min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -31,21 +31,21 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
         </motion.div>
 
         {/* Bloque A: Organización de Hogar */}
-        <div className="mb-32">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
+        <div className="mb-40">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-20">
             {/* Imagen Collage */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="relative h-[500px] lg:h-[600px]"
+              className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl"
             >
               <ImageWithPlaceholder
                 src="/images/collage-hogar.jpg"
                 alt="Collage de organización de hogar"
                 fill
-                className="object-cover rounded-lg"
+                className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </motion.div>
@@ -113,7 +113,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             {/* Organización de Oficina */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -121,7 +121,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <div className="relative h-[400px] mb-6 rounded-lg overflow-hidden">
+              <div className="relative h-[400px] mb-6 rounded-2xl overflow-hidden shadow-lg">
                 <ImageWithPlaceholder
                   src="/images/archivadores-blancos.jpg"
                   alt="Archivadores blancos para organización de oficina"
@@ -151,7 +151,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="relative h-[400px] mb-6 rounded-lg overflow-hidden">
+              <div className="relative h-[400px] mb-6 rounded-2xl overflow-hidden shadow-lg">
                 <ImageWithPlaceholder
                   src="/images/manos-laptop.jpg"
                   alt="Archivos digitales"

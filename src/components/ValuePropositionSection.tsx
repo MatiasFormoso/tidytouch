@@ -14,6 +14,7 @@ export default function ValuePropositionSection() {
           fill
           className="object-cover object-center"
           sizes="100vw"
+          priority={true}
         />
         {/* Subtle overlay for better text readability */}
         <div className="absolute inset-0 bg-white/10"></div>

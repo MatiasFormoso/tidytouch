@@ -24,6 +24,7 @@ export default function HeroSection({ t, locale }: HeroSectionProps) {
           fill
           className="object-cover"
           sizes="100vw"
+          priority={true}
         />
         {/* Overlay para mejorar legibilidad del texto */}
         <div className="absolute inset-0 bg-black/20"></div>

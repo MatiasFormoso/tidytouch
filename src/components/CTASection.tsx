@@ -21,6 +21,7 @@ export default function CTASection({ t, locale }: CTASectionProps) {
           fill
           className="object-cover"
           sizes="100vw"
+          priority={false}
         />
         
         {/* Text Overlay */}
