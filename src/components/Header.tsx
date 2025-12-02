@@ -40,8 +40,8 @@ export default function Header({ t, locale }: HeaderProps) {
       id="site-nav" 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         hasScrolled 
-          ? 'bg-neutral-50/95 backdrop-blur-md border-b border-neutral-200 shadow-sm' 
-          : 'bg-neutral-50/80 backdrop-blur-sm border-b border-neutral-200/50'
+          ? 'bg-white/95 backdrop-blur-md border-b border-[#BCAAA4] shadow-sm' 
+          : 'bg-white/80 backdrop-blur-sm border-b border-[#BCAAA4]/50'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,9 +53,10 @@ export default function Header({ t, locale }: HeaderProps) {
           >
             <Link
               href={`/${locale}`}
-              className="text-2xl font-bold text-neutral-900 hover:text-neutral-700 transition-colors tracking-tight"
+              className="text-2xl font-light text-[#0F3A4E] hover:text-[#5A6E78] transition-colors tracking-tight"
+              style={{ fontFamily: 'var(--font-raleway)' }}
             >
-              TidyTouch
+              Tidy Touch
             </Link>
           </motion.div>
           
@@ -75,10 +76,11 @@ export default function Header({ t, locale }: HeaderProps) {
               >
                 <Link
                   href={item.href}
-                  className="relative text-neutral-600 hover:text-neutral-900 transition-colors text-sm font-medium group"
+                  className="relative text-[#5A6E78] hover:text-[#0F3A4E] transition-colors text-sm font-medium group"
+                  style={{ fontFamily: 'var(--font-lato)' }}
                 >
                   {item.name}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-neutral-900 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#0F3A4E] transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </motion.div>
             ))}

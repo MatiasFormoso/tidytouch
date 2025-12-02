@@ -1,7 +1,7 @@
 import { getDictionary } from '@/i18n/config';
 import type { Locale } from '@/i18n/config';
 import ContactForm from '@/components/ContactForm';
-import Image from 'next/image';
+import ImageWithPlaceholder from '@/components/ImageWithPlaceholder';
 import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 
@@ -121,8 +121,8 @@ export default async function ContactPage({
         {/* Right Side - Form and Image */}
         <div className="relative bg-white">
           {/* Vertical Image Column */}
-          <div className="absolute inset-0 w-full h-full hidden lg:block">
-            <Image
+          <div className="absolute inset-0 w-full h-full hidden lg:block bg-[#F8F6F2]">
+            <ImageWithPlaceholder
               src="/images/contacto-vertical.jpg"
               alt="Columna vertical de imágenes de contacto"
               fill
