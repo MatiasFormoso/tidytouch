@@ -2,7 +2,7 @@ import type { Dict } from "../config";
 
 const en: Dict = {
   meta: {
-    title: "TidyTouch - Professional Organization",
+    title: "TIDY TOUCH - Professional Organization",
     description: "Professional organization and cleaning services for your home or business.",
   },
   nav: {

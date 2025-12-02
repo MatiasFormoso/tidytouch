@@ -2,7 +2,7 @@ import type { Dict } from "../config";
 
 const es: Dict = {
   meta: {
-    title: "Tidy Touch by Luisa Rueda - Organización Profesional",
+    title: "TIDY TOUCH by Luisa Rueda - Organización Profesional",
     description: "Un toque de orden en cualquier espacio. Servicios profesionales de organización para tu hogar o negocio.",
   },
   nav: {
@@ -12,7 +12,7 @@ const es: Dict = {
     contact: "Contacto",
   },
   hero: {
-    title: "Tidy Touch by Luisa Rueda",
+    title: "TIDY TOUCH by Luisa Rueda",
     subtitle: "Un toque de orden en cualquier espacio...",
     ctaPrimary: "Contactanos",
     ctaSecondary: "Ver Servicios",

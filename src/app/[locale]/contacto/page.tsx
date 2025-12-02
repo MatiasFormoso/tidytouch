@@ -118,24 +118,10 @@ export default async function ContactPage({
           </motion.div>
         </div>
 
-        {/* Right Side - Form and Image */}
-        <div className="relative bg-white">
-          {/* Vertical Image Column */}
-          <div className="absolute inset-0 w-full h-full hidden lg:block bg-[#F8F6F2]">
-            <ImageWithPlaceholder
-              src="/images/contacto-vertical.jpg"
-              alt="Columna vertical de imágenes de contacto"
-              fill
-              className="object-cover"
-              sizes="50vw"
-            />
-          </div>
-          
-          {/* Form Overlay */}
-          <div className="relative z-10 h-full flex items-center p-8 sm:p-12 lg:p-16">
-            <div className="w-full max-w-lg mx-auto lg:bg-white/95 lg:p-8 lg:rounded-lg">
-              <ContactForm t={t} />
-            </div>
+        {/* Right Side - Form */}
+        <div className="relative bg-white flex items-center p-8 sm:p-12 lg:p-16">
+          <div className="w-full max-w-lg mx-auto">
+            <ContactForm t={t} />
           </div>
         </div>
       </div>
