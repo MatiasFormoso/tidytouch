@@ -56,7 +56,7 @@ export default function Header({ t, locale }: HeaderProps) {
               className="text-2xl font-light text-[#0F3A4E] hover:text-[#5A6E78] transition-colors tracking-tight"
               style={{ fontFamily: 'var(--font-raleway)' }}
             >
-              TIDY TOUCH
+              Tidy Touch
             </Link>
           </motion.div>
           

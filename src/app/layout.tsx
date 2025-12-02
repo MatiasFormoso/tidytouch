@@ -31,14 +31,14 @@ const sacramento = Sacramento({
 });
 
 export const metadata: Metadata = {
-  title: 'TIDY TOUCH - Organizacion Profesional',
+  title: 'Tidy Touch - Organizacion Profesional',
   description: 'Servicios profesionales de organizacion y limpieza para tu hogar o negocio.',
   keywords: "organizacion profesional, limpieza, orden, espacios, hogar, negocio",
-    authors: [{ name: "TIDY TOUCH" }],
+    authors: [{ name: "Tidy Touch" }],
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "TIDY TOUCH",
+    title: "Tidy Touch",
   },
   formatDetection: {
     telephone: false,

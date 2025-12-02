@@ -29,7 +29,7 @@ export default function Footer({ t, locale }: FooterProps) {
               className="text-2xl font-light text-[#0F3A4E] mb-4"
               style={{ fontFamily: 'var(--font-raleway)' }}
             >
-              TIDY TOUCH by Luisa Rueda
+              Tidy Touch by Luisa Rueda
             </h3>
             <p
               className="text-[#5A6E78] leading-relaxed max-w-md"
@@ -98,7 +98,7 @@ export default function Footer({ t, locale }: FooterProps) {
             className="text-[#5A6E78] text-sm"
             style={{ fontFamily: 'var(--font-lato)' }}
           >
-            © {currentYear} TIDY TOUCH by Luisa Rueda. {t.footer.rights}
+            © {currentYear} Tidy Touch by Luisa Rueda. {t.footer.rights}
           </p>
         </div>
       </div>
