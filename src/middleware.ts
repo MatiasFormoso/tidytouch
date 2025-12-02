@@ -1,21 +1,28 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
+const locales = ['es', 'en'];
+const defaultLocale = 'es';
+
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
   // Check if pathname already has a locale
-  const pathnameHasLocale = pathname.startsWith('/es/') || pathname.startsWith('/en/');
+  const pathnameHasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
   
   // If accessing root, redirect to /es
   if (pathname === '/') {
-    return NextResponse.redirect(new URL('/es', request.url));
+    return NextResponse.redirect(new URL(`/${defaultLocale}`, request.url));
   }
   
-  // If pathname doesn't have locale and is not root, add default locale
-  if (!pathnameHasLocale && pathname !== '/') {
-    const locale = 'es'; // default locale
-    return NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url));
+  // If pathname doesn't have locale, add default locale
+  if (!pathnameHasLocale) {
+    const locale = defaultLocale;
+    // If pathname is just a slash or empty after removing trailing slash, redirect to /locale
+    const cleanPath = pathname.startsWith('/') ? pathname : `/${pathname}`;
+    return NextResponse.redirect(new URL(`/${locale}${cleanPath}`, request.url));
   }
   
   return NextResponse.next();
