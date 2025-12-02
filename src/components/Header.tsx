@@ -53,7 +53,7 @@ export default function Header({ t, locale }: HeaderProps) {
           >
             <Link
               href={`/${locale}`}
-              className="text-xl font-semibold text-neutral-900 hover:text-neutral-700 transition-colors"
+              className="text-2xl font-bold text-neutral-900 hover:text-neutral-700 transition-colors tracking-tight"
             >
               TidyTouch
             </Link>
@@ -75,9 +75,10 @@ export default function Header({ t, locale }: HeaderProps) {
               >
                 <Link
                   href={item.href}
-                  className="text-neutral-700 hover:text-neutral-900 transition-colors text-sm font-medium"
+                  className="relative text-neutral-600 hover:text-neutral-900 transition-colors text-sm font-medium group"
                 >
                   {item.name}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-neutral-900 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </motion.div>
             ))}
