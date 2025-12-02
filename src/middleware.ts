@@ -7,6 +7,16 @@ const defaultLocale = 'es';
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  // Skip middleware for static files (images, fonts, etc.)
+  if (
+    pathname.startsWith('/images/') ||
+    pathname.startsWith('/_next/') ||
+    pathname.startsWith('/api/') ||
+    pathname.match(/\.(jpg|jpeg|png|gif|svg|ico|webp|avif|woff|woff2|ttf|eot)$/)
+  ) {
+    return NextResponse.next();
+  }
+  
   // Check if pathname already has a locale
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
