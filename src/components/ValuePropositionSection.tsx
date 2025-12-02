@@ -17,7 +17,7 @@ export default function ValuePropositionSection() {
           priority={true}
         />
         {/* Subtle overlay for better text readability */}
-        <div className="absolute inset-0 bg-white/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-white/5 to-white/20"></div>
         
         {/* Text overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
@@ -26,14 +26,16 @@ export default function ValuePropositionSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="text-center px-4 max-w-4xl mx-auto"
+            className="text-center px-4 max-w-4xl mx-auto relative z-10"
           >
-            <h2
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal text-[#0F3A4E] uppercase tracking-[3px] sm:tracking-[4px] leading-tight"
-              style={{ fontFamily: 'var(--font-montserrat)' }}
-            >
-              HOME ORGANIZER SERVICES
-            </h2>
+            <div className="inline-block px-8 py-4 bg-white/90 backdrop-blur-sm rounded-lg mb-6 shadow-lg">
+              <h2
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal text-[#0F3A4E] uppercase tracking-[3px] sm:tracking-[4px] leading-tight"
+                style={{ fontFamily: 'var(--font-montserrat)' }}
+              >
+                HOME ORGANIZER SERVICES
+              </h2>
+            </div>
           </motion.div>
         </div>
       </div>
