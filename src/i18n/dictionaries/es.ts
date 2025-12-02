@@ -1,3 +1,5 @@
+import type { Dict } from "../config";
+
 const es: Dict = {
   meta: {
     title: "TidyTouch - Organizacion Profesional",
@@ -46,6 +48,4 @@ const es: Dict = {
 };
 
 export default es;
-
-import type { Dict } from "../config";
 
