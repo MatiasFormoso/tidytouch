@@ -1,4 +1,5 @@
 import HeroSection from '@/components/HeroSection';
+import ValuePropositionSection from '@/components/ValuePropositionSection';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import CTASection from '@/components/CTASection';
@@ -16,6 +17,7 @@ export default async function HomePage({
   return (
     <>
       <HeroSection t={t} locale={locale as Locale} />
+      <ValuePropositionSection />
       <AboutSection t={t} locale={locale as Locale} />
       <ServicesSection t={t} locale={locale as Locale} />
       <CTASection t={t} locale={locale as Locale} />

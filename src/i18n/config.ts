@@ -10,7 +10,6 @@ export type Dict = {
     contact: string;
   };
   hero: {
-    badge: string;
     title: string;
     subtitle: string;
     ctaPrimary: string;
@@ -18,16 +17,39 @@ export type Dict = {
   };
   about: {
     title: string;
-    subtitle: string;
-    description: string;
+    mission: {
+      title: string;
+      text: string;
+    };
+    philosophy: {
+      title: string;
+      text: string;
+    };
+    bio: {
+      title: string;
+      text: string;
+      personal: string;
+    };
   };
   services: {
     title: string;
-    subtitle: string;
+    home: {
+      title: string;
+      description: string;
+      areas: string[];
+    };
+    office: {
+      title: string;
+      description: string;
+    };
   };
   contact: {
     title: string;
     subtitle: string;
+    phone: string;
+    email: string;
+    location: string;
+    instagram: string;
     form: {
       name: string;
       email: string;
@@ -40,8 +62,10 @@ export type Dict = {
     description: string;
     quickLinks: string;
     contact: string;
-    followUs: string;
     rights: string;
+  };
+  inspiration: {
+    text: string;
   };
 };
 

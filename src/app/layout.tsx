@@ -1,10 +1,32 @@
 import type { Metadata } from 'next';
-import { Inter } from "next/font/google";
+import { Raleway, Montserrat, Lato, Sacramento } from "next/font/google";
 import './globals.css';
 
-const inter = Inter({
+const raleway = Raleway({
   subsets: ["latin"],
-  variable: "--font-inter",
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-raleway",
+  display: "swap",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  variable: "--font-lato",
+  display: "swap",
+});
+
+const sacramento = Sacramento({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-sacramento",
   display: "swap",
 });
 
@@ -35,7 +57,7 @@ export function generateViewport() {
     initialScale: 1,
     maximumScale: 1,
     userScalable: false,
-    themeColor: '#F5F5F0',
+    themeColor: '#FFFFFF',
     viewportFit: 'cover',
     interactiveWidget: 'resizes-content',
     colorScheme: 'light',
@@ -48,8 +70,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={inter.variable}>
-      <body className="font-sans antialiased bg-neutral-50 text-neutral-900 overflow-x-hidden">
+    <html lang="es" className={`${raleway.variable} ${montserrat.variable} ${lato.variable} ${sacramento.variable}`}>
+      <body className="font-sans antialiased bg-white text-[#0F3A4E] overflow-x-hidden">
         {children}
       </body>
     </html>
