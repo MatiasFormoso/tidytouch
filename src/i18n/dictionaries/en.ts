@@ -60,6 +60,9 @@ const en: Dict = {
     email: "Tidytouchbyluisarueda@outlook.com",
     location: "Abu Dhabi",
     instagram: "@tidytouchbylr",
+    whatsappButton: "Contact via WhatsApp",
+    whatsappDescription: "Contact us directly via WhatsApp and we'll get back to you as soon as possible.",
+    whatsappMessage: "Hello, I would like to get more information about your organization services.",
     form: {
       name: "Name",
       email: "Email",

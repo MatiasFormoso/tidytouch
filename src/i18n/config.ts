@@ -50,6 +50,9 @@ export type Dict = {
     email: string;
     location: string;
     instagram: string;
+    whatsappButton?: string;
+    whatsappDescription?: string;
+    whatsappMessage?: string;
     form: {
       name: string;
       email: string;

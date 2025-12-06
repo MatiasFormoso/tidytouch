@@ -1,7 +1,7 @@
 import { getDictionary } from '@/i18n/config';
 import type { Locale } from '@/i18n/config';
-import ContactForm from '@/components/ContactForm';
 import ContactInfo from '@/components/ContactInfo';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default async function ContactPage({
   params,
@@ -18,10 +18,10 @@ export default async function ContactPage({
         {/* Left Side - Contact Information (Beige Background) */}
         <ContactInfo t={t} />
 
-        {/* Right Side - Form */}
-        <div className="relative bg-white flex items-center p-8 sm:p-12 lg:p-16">
-          <div className="w-full max-w-lg mx-auto">
-            <ContactForm t={t} />
+        {/* Right Side - WhatsApp Button */}
+        <div className="relative bg-white flex items-center justify-center p-8 sm:p-12 lg:p-16">
+          <div className="w-full max-w-lg mx-auto text-center">
+            <WhatsAppButton t={t} phone={t.contact.phone} />
           </div>
         </div>
       </div>
