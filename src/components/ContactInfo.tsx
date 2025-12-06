@@ -10,7 +10,7 @@ type ContactInfoProps = {
 
 export default function ContactInfo({ t }: ContactInfoProps) {
   return (
-    <div className="bg-[#F8F6F2] p-8 sm:p-12 lg:p-16 flex flex-col justify-center">
+    <div className="bg-[#F8F6F2] p-8 sm:p-12 lg:p-16 flex flex-col justify-center min-h-full">
       <motion.div
         initial={{ opacity: 0, x: -30 }}
         animate={{ opacity: 1, x: 0 }}
