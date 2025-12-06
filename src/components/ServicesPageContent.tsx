@@ -84,14 +84,16 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
                 ))}
               </ul>
 
-              <Link
-                href={`/${locale}/contacto`}
-                className="inline-flex items-center px-10 py-4 border border-[#0F3A4E] text-[#0F3A4E] font-medium hover:bg-[#0F3A4E] hover:text-white transition-all duration-300"
-                style={{ fontFamily: 'var(--font-montserrat)' }}
-              >
-                Solicitar información
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Link>
+              <div className="text-center lg:text-left">
+                <Link
+                  href={`/${locale}/contacto`}
+                  className="inline-flex items-center px-10 py-4 border border-[#0F3A4E] text-[#0F3A4E] font-medium hover:bg-[#0F3A4E] hover:text-white transition-all duration-300"
+                  style={{ fontFamily: 'var(--font-montserrat)' }}
+                >
+                  Solicitar información
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Link>
+              </div>
             </motion.div>
           </div>
         </div>
