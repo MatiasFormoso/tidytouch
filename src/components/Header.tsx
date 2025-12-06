@@ -45,12 +45,13 @@ export default function Header({ t, locale }: HeaderProps) {
           : 'bg-white border-b border-[#BCAAA4]/50'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
+            className="-ml-1 sm:ml-0"
           >
             <Link
               href={`/${locale}`}
