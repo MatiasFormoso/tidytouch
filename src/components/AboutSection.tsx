@@ -59,7 +59,7 @@ export default function AboutSection({ t, locale }: AboutSectionProps) {
             className="relative h-[400px] lg:h-[500px] order-1 lg:order-2 rounded-lg overflow-hidden"
           >
             <ImageWithPlaceholder
-              src="/images/cajas-lavanda.jpg"
+              src="/images/about-mision-cajas-lavanda.jpg"
               alt="Foto cenital de cajas blancas y rama de lavanda"
               fill
               className="object-cover"
@@ -78,7 +78,7 @@ export default function AboutSection({ t, locale }: AboutSectionProps) {
             className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden"
           >
             <ImageWithPlaceholder
-              src="/images/perchero-industrial.jpg"
+              src="/images/about-filosofia-perchero-industrial.jpg"
               alt="Perchero industrial negro con ropa colgada"
               fill
               className="object-cover"
@@ -147,7 +147,7 @@ export default function AboutSection({ t, locale }: AboutSectionProps) {
             className="relative h-[500px] lg:h-[600px] rounded-lg overflow-hidden"
           >
             <ImageWithPlaceholder
-              src="/images/luisa-roca.jpg"
+              src="/images/about-bio-luisa-roca.jpg"
               alt="Luisa sentada en las rocas"
               fill
               className="object-cover"

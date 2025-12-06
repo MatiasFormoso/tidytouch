@@ -16,7 +16,7 @@ export default function CTASection({ t, locale }: CTASectionProps) {
       {/* Banner Image - Horizontal (slide 9) */}
       <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px]">
         <ImageWithPlaceholder
-          src="/images/banner-inspiracion.jpg"
+          src="/images/cta-banner-inspiracion.jpg"
           alt="Banner de inspiración: Toallas dobladas, Perchas vacías, Despensa llena, Lavandería"
           fill
           className="object-cover"
@@ -34,8 +34,8 @@ export default function CTASection({ t, locale }: CTASectionProps) {
             className="text-center px-4 max-w-4xl mx-auto"
           >
             <h2
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white mb-8 leading-tight"
-              style={{ fontFamily: 'var(--font-raleway)' }}
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light mb-8 leading-tight"
+              style={{ fontFamily: 'var(--font-raleway)', color: '#ffffff' }}
             >
               {t.inspiration.text}
             </h2>

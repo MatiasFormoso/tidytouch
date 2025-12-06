@@ -42,7 +42,7 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
           >
             <div className="relative h-[300px] mb-6 rounded-lg overflow-hidden">
               <ImageWithPlaceholder
-                src="/images/collage-hogar.jpg"
+                src="/images/services-hogar-collage.jpg"
                 alt="Collage de organización de hogar"
                 fill
                 className="object-cover"
@@ -82,7 +82,7 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="relative h-[140px] rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
-                  src="/images/archivadores-blancos.jpg"
+                  src="/images/services-oficina-archivadores-blancos.jpg"
                   alt="Archivadores blancos"
                   fill
                   className="object-cover"
@@ -91,7 +91,7 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
               </div>
               <div className="relative h-[140px] rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
-                  src="/images/manos-laptop.jpg"
+                  src="/images/services-digital-manos-laptop.jpg"
                   alt="Manos en laptop"
                   fill
                   className="object-cover"

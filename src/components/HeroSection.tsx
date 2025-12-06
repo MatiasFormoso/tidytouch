@@ -19,15 +19,13 @@ export default function HeroSection({ t, locale }: HeroSectionProps) {
       {/* Background Image - Perchero con espejo (slide 1) */}
       <div className="absolute inset-0 w-full h-full bg-[#F8F6F2]">
         <ImageWithPlaceholder
-          src="/images/perchero-industrial.jpg"
+          src="/images/hero-perchero-industrial.jpg"
           alt="Perchero de ropa - Organización profesional"
           fill
           className="object-cover"
           sizes="100vw"
           priority={true}
         />
-        {/* Overlay para mejorar legibilidad del texto */}
-        <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
       {/* Content */}

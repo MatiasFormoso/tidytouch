@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import ImageWithPlaceholder from './ImageWithPlaceholder';
 import LocaleSwitcher from './LocaleSwitcher';
 import type { Dict, Locale } from '@/i18n/config';
 
@@ -40,8 +41,8 @@ export default function Header({ t, locale }: HeaderProps) {
       id="site-nav" 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         hasScrolled 
-          ? 'bg-white/95 backdrop-blur-md border-b border-[#BCAAA4] shadow-sm' 
-          : 'bg-white/80 backdrop-blur-sm border-b border-[#BCAAA4]/50'
+          ? 'bg-white border-b border-[#BCAAA4] shadow-sm' 
+          : 'bg-white border-b border-[#BCAAA4]/50'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,10 +54,16 @@ export default function Header({ t, locale }: HeaderProps) {
           >
             <Link
               href={`/${locale}`}
-              className="text-2xl font-light text-[#0F3A4E] hover:text-[#5A6E78] transition-colors tracking-tight"
-              style={{ fontFamily: 'var(--font-raleway)' }}
+              className="flex items-center h-full"
             >
-              Tidy Touch
+              <ImageWithPlaceholder
+                src="/images/header-logo.png"
+                alt="Tidy Touch by Luisa Rueda"
+                width={120}
+                height={40}
+                className="h-8 sm:h-10 w-auto object-contain"
+                priority={true}
+              />
             </Link>
           </motion.div>
           
@@ -115,7 +122,7 @@ export default function Header({ t, locale }: HeaderProps) {
 
         {/* Mobile Menu */}
         <div
-          className={`md:hidden absolute top-full left-0 right-0 bg-neutral-50/98 backdrop-blur-md border-b border-neutral-200 shadow-lg transition-all duration-300 ${
+          className={`md:hidden absolute top-full left-0 right-0 bg-white border-b border-neutral-200 shadow-lg transition-all duration-300 ${
             isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
           }`}
         >
@@ -124,7 +131,7 @@ export default function Header({ t, locale }: HeaderProps) {
               <Link
                 key={item.name}
                 href={item.href}
-                className="block text-neutral-700 hover:text-neutral-900 transition-colors font-medium py-3 px-3 rounded-lg hover:bg-neutral-100"
+                className="block text-[#0F3A4E] hover:text-[#0F3A4E] transition-colors font-medium py-3 px-3 rounded-lg hover:bg-neutral-100"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}

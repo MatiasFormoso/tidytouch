@@ -42,7 +42,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
               className="relative h-[500px] lg:h-[600px] rounded-lg overflow-hidden"
             >
               <ImageWithPlaceholder
-                src="/images/collage-hogar.jpg"
+                src="/images/services-hogar-collage.jpg"
                 alt="Collage de organización de hogar"
                 fill
                 className="object-cover"
@@ -123,7 +123,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
             >
               <div className="relative h-[400px] mb-6 rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
-                  src="/images/archivadores-blancos.jpg"
+                  src="/images/services-oficina-archivadores-blancos.jpg"
                   alt="Archivadores blancos para organización de oficina"
                   fill
                   className="object-cover"
@@ -153,7 +153,7 @@ export default function ServicesPageContent({ t, locale }: ServicesPageContentPr
             >
               <div className="relative h-[400px] mb-6 rounded-lg overflow-hidden">
                 <ImageWithPlaceholder
-                  src="/images/manos-laptop.jpg"
+                  src="/images/services-digital-manos-laptop.jpg"
                   alt="Archivos digitales"
                   fill
                   className="object-cover"
