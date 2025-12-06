@@ -33,7 +33,6 @@ export default function ImageWithPlaceholder({
           width: '100%',
           height: '100%',
           objectFit: 'cover',
-          imageRendering: 'high-quality',
           imageRendering: '-webkit-optimize-contrast',
         }}
         loading={priority ? 'eager' : 'lazy'}

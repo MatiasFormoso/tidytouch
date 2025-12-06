@@ -45,7 +45,7 @@ export default function ServicesSection({ t, locale }: ServicesSectionProps) {
                 src="/images/services-hogar-collage.jpg"
                 alt="Collage de organización de hogar"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
