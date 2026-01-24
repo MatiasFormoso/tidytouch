@@ -58,10 +58,10 @@ export default function Header({ t, locale }: HeaderProps) {
               className="flex items-center h-full"
             >
               <ImageWithPlaceholder
-                src="/images/header-logo.png"
+                src="/images/header-logo.jpg"
                 alt="Tidy Touch by Luisa Rueda"
-                width={120}
-                height={40}
+                width={140}
+                height={44}
                 className="h-8 sm:h-10 w-auto object-contain"
                 priority={true}
               />
